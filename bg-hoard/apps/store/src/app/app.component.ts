@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { formatRating } from '@bg-hoard/libs/store/util-formatters';
 import { getAllGames } from '../fake-api';
 
 @Component({
@@ -7,6 +8,8 @@ import { getAllGames } from '../fake-api';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  formatRating = formatRating;
+
   title = 'Board Game Hoard';
   games = getAllGames();
 }

@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@bg-hoard/libs/store/util-formatters": [
+        "libs/libs/store/util-formatters/src/index.ts"
+      ],
+      "@bg-hoard/store/header": ["libs/store/header/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

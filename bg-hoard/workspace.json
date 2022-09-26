@@ -2,7 +2,9 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "libs-store-util-formatters": "libs/libs/store/util-formatters",
     "store": "apps/store",
-    "store-e2e": "apps/store-e2e"
+    "store-e2e": "apps/store-e2e",
+    "store-header": "libs/store/header"
   }
 }
