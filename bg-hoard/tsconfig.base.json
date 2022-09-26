@@ -18,6 +18,9 @@
       "@bg-hoard/libs/store/util-formatters": [
         "libs/libs/store/util-formatters/src/index.ts"
       ],
+      "@bg-hoard/store/feature-game-detail": [
+        "libs/store/feature-game-detail/src/index.ts"
+      ],
       "@bg-hoard/store/header": ["libs/store/header/src/index.ts"]
     }
   },

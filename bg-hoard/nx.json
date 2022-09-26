@@ -54,5 +54,8 @@
       "style": "css"
     }
   },
-  "defaultProject": "store"
+  "defaultProject": "store",
+  "cli": {
+    "defaultCollection": "@nrwl/nest"
+  }
 }
