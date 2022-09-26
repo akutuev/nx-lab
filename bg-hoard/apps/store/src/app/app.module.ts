@@ -6,6 +6,8 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 import { RouterModule } from '@angular/router';
 import { MatCardModule } from '@angular/material/card';
 
+import { HttpClientModule } from '@angular/common/http';
+
 import { StoreHeaderModule } from '@bg-hoard/store/header';
 
 @NgModule({
@@ -14,6 +16,7 @@ import { StoreHeaderModule } from '@bg-hoard/store/header';
     BrowserModule,
     MatCardModule,
     StoreHeaderModule,
+    HttpClientModule,
     RouterModule.forRoot(
       [
         {

@@ -1,13 +1,14 @@
+import { Game } from '@bg-hoard/libs/api/util-interface';
 import { Controller, Get, Param } from '@nestjs/common';
 
 import { AppService } from './app.service';
 
-@Controller()
+@Controller('games')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getAllGames() {
+  getAllGames(): Game[] {
     return this.appService.getAllGames();
   }
 

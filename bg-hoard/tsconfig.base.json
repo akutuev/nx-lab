@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@bg-hoard/libs/api/util-interface": [
+        "libs/libs/api/util-interface/src/index.ts"
+      ],
       "@bg-hoard/libs/store/util-formatters": [
         "libs/libs/store/util-formatters/src/index.ts"
       ],

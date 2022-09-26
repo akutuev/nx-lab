@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
+    "libs-api-util-interface": "libs/libs/api/util-interface",
     "libs-store-util-formatters": "libs/libs/store/util-formatters",
     "store": "apps/store",
     "store-e2e": "apps/store-e2e",
