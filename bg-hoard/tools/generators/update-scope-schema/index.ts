@@ -6,6 +6,9 @@ export default async function (tree: Tree, schema: any) {
   // await libraryGenerator(tree, {name: schema.name});
   // await formatFiles(tree);
 
+  
+
+
   updateJson(tree, 'nx.json', (json): any => {
     json.defaultProject = "api"
 
